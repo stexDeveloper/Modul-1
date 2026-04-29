@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.songsContainer {
+  text-align: center;
+}
+
+.songsDiv {
+  text-align: center;
+  margin: 10px 10px 60px 10px;
+  width: 350px;
+  display: inline-block;
+}
+
+.nameOfTheSong {
+  margin-bottom: 10px;
+}
+
+.picture {
+  margin-bottom: 20px;
+  width: 100%;
+}
