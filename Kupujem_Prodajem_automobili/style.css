@@ -1,0 +1,41 @@
+.mainDiv {
+  width: 350px;
+  background-color: rgb(32, 32, 32);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subDiv {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.boldSubDiv {
+  font-weight: bold;
+}
+
+.priceDiv {
+  color: orangered;
+  font-weight: bold;
+  margin-top: 40px;
+  padding-bottom: 10px;
+}
+
+.carImage {
+  width: 100%;
+}
+
+.icons {
+  width: 20px;
+  margin-bottom: 0;
+  background-color: white;
+}
+
+.paragraphDiv {
+  margin-top: 0;
+  color: rgb(188, 188, 188);
+}
+
+.titleColor {
+  color: rgb(96, 237, 242);
+}
