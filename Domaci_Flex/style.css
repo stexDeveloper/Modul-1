@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navDiv {
+  background-color: black;
+  color: white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 770px;
+}
+
+.mainDiv {
+  width: 300px;
+  text-align: center;
+}
+
+.imagePortfolio {
+  width: 100%;
+}
+
+.contactDiv {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.contactButton {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  margin-top: 20px;
+}
