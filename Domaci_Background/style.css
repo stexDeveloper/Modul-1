@@ -1,0 +1,37 @@
+html{
+ scroll-behavior: smooth;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+.backgroundImage{
+ background: url("slike/f1_ferrari.jpg");
+ height: 100vh;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ text-shadow: 3px 3px 1px black;
+ background-attachment: fixed;
+}
+
+.buySection{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ margin: 40px;
+}
+
+.buyBtn{
+ background-color: black;
+ color: white;
+ padding: 5px 30px;
+ margin-top: 20px;
+}
