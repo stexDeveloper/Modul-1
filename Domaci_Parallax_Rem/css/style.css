@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 60px;
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  background-color: rgb(58, 92, 246);
+  color: white;
+}
+
+.landingPage {
+  background-image: url("../slike/custom_search.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 100px;
+  padding: 0 100px;
+}
+
+.container {
+  background-color: #f4f4f4;
+  width: 300px;
+}
+
+.container img {
+  width: 100%;
+}
+
+.landingPage h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+.container h1 {
+  font-size: 1.5rem;
+}
+
+.container p {
+  font-size: 0.82rem;
+}
+
+.footer {
+  height: 50px;
+  background-color: antiquewhite;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 500px;
+  color: #9b2743;
+  font-weight: 600;
+}
+
+.milesMPG {
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.fontFamily {
+  font-family: "Montserrat", sans-serif;
+}
+
+.margin {
+  margin: 10px;
+}
