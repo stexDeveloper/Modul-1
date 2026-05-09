@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.displayFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flexDirectionRow {
+  flex-direction: row;
+}
+
+.flexDirectionColumn {
+  flex-direction: column;
+}
+
+.justifyContentCenter {
+  justify-content: center;
+}
+
+.justifContentStretch {
+  justify-content: stretch;
+}
+
+.alignItemsFlexStart {
+  align-items: flex-start;
+}
+
+.alignItemsCenter {
+  align-items: center;
+}
+
+.justifyContentSpaceEvenly {
+  justify-content: space-evenly;
+}
+
+.alignItemsStretch {
+  align-items: stretch;
+}
+
+.flexWrapWrap {
+  flex-wrap: wrap;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.minHeight5vhNavbarFooter {
+  min-height: 5vh;
+  background-color: rgb(66, 66, 66);
+}
+
+.navbar {
+  gap: 10px;
+  padding: 20px 50px;
+  top: 0;
+  position: sticky;
+}
+
+.socials {
+  gap: 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.icons {
+  width: 30px;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  gap: 100px;
+  padding: 60px 40px;
+}
+
+.subHeader {
+  max-width: 600px;
+  width: 100%;
+}
+
+.headerTitle {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.profilePic {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 100%;
+}
+
+.headerText {
+  font-size: 1.1rem;
+  word-spacing: 5px;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.headerButton {
+  background-color: rgb(0, 192, 199);
+  width: 300px;
+  height: 50px;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  font-family: "Roboto", sans-serif;
+}
+
+.studies {
+  padding: 80px 20px;
+}
+
+.sectionStudies {
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.sectionStudiesTitle {
+  font-size: 2.5rem;
+}
+
+.caseStudiesArticle,
+.edtechSection {
+  width: 100%;
+  max-width: 1200px;
+  gap: 50px;
+  margin-bottom: 80px;
+}
+
+.articleDiv {
+  flex: 1;
+  min-width: 280px;
+}
+
+.sectionPic {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.caseText {
+  width: 100%;
+}
+
+.caseModifiedtext {
+  word-spacing: 5px;
+  line-height: 1.8;
+  color: rgb(156, 156, 156);
+}
+
+.fintech {
+  color: rgb(255, 188, 101);
+  font-weight: bold;
+}
+
+.sectionButton {
+  width: 170px;
+  height: 30px;
+  font-weight: bold;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 6px;
+}
+
+.fintechButton {
+  background-color: rgb(249, 175, 2);
+}
+
+.edtechButton {
+  background-color: rgb(27, 24, 73);
+}
+
+.pharmaButton {
+  background-color: rgb(69, 189, 249);
+}
+
+.pharma {
+  color: rgb(69, 189, 249);
+  font-weight: bold;
+}
+
+.marginBottom {
+  margin-bottom: 20px;
+}
+
+.edtech {
+  color: rgb(27, 24, 73);
+  font-weight: bold;
+}
+
+.testimonials {
+  background-color: black;
+  min-height: 100vh;
+  padding: 80px 20px;
+}
+
+.headerTestimonials {
+  color: white;
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 80px;
+  word-spacing: 5px;
+  line-height: 1.8;
+}
+
+.mainBox {
+  gap: 20px;
+  width: 100%;
+}
+
+.testimonialsBox {
+  width: 300px;
+  border: 1px solid rgb(181, 181, 181);
+  border-radius: 6px;
+  padding: 30px;
+}
+
+.testiomonialsTitle {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+}
+
+.testimonialHeaderText {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.clients {
+  color: white;
+  word-spacing: 5px;
+  line-height: 1.8;
+  font-size: 0.9rem;
+}
+
+.clientText {
+  margin-bottom: 20px;
+}
+
+.containerClient {
+  gap: 20px;
+}
+
+.clientPics {
+  width: 60px;
+  border-radius: 100%;
+}
+
+.recentWork {
+  min-height: 100vh;
+  padding: 80px 20px;
+}
+
+.recentTitle {
+  margin-bottom: 20px;
+}
+
+.workContainer {
+  text-align: center;
+  max-width: 100%;
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+.subWorkContainer {
+  gap: 20px;
+  max-width: 100vw;
+  width: 100%;
+}
+
+.workNameContainer {
+  display: flex;
+  justify-content: stretch;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.workNamePic {
+  max-width: 100%;
+  width: 560px;
+  border-radius: 4px;
+  height: auto;
+}
+
+.workTitle {
+  margin-bottom: 20px;
+}
+
+.workText {
+  width: 400px;
+}
+
+.workBtn {
+  background-color: rgb(75, 198, 202);
+  width: 120px;
+  height: 30px;
+  color: white;
+  font-family: "Montserrat", "sans-serif";
+  font-weight: bold;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.workNamePic,
+.workTitle,
+.workText {
+  margin-bottom: 25px;
+}
+
+.width100Percent {
+  width: 100%;
+}
+
+.contactFormSection {
+  padding: 80px;
+  box-sizing: border-box;
+  background-color: black;
+  min-height: 100vh;
+}
+.formContainer {
+  margin-top: 50px;
+  box-sizing: border-box;
+  max-width: 650px;
+}
+
+input[type="text"],
+select,
+textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.submitBtn {
+  height: 50px;
+  background-color: rgb(69, 189, 249);
+  font-weight: bold;
+  font-family: "Montserrat", "sans-serif";
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: none;
+}
+
+.whiteText {
+  color: white;
+}
+
+.footer {
+  color: rgb(195, 195, 195);
+}
