@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "sans-serif";
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.flexDirectionColumn {
+  flex-direction: column;
+}
+
+.flexDirectionRow {
+  flex-direction: row;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70px;
+  background-color: black;
+  padding: 15px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.header {
+  background-image: url("../slike/slika1.jpg");
+  height: 50vh;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  text-shadow: 0px 1px #33f7d0;
+}
+
+section {
+  gap: 20px;
+  padding: 0 30px;
+  width: 100%;
+}
+
+article {
+  background-color: beige;
+  padding: 10px;
+  width: 500px;
+}
+
+.megane {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+.colorBackgroundColor {
+  background-color: black;
+  color: white;
+}
+
+.font-size {
+  font-size: 1.7rem;
+}
+
+.navFont {
+  font-size: 1.4rem;
+}
+
+.fontFamily {
+  font-family: "Montserrat", sans-serif;
+}
+
+.marginBottom {
+  margin-bottom: 40px;
+}
+
+.articalCena {
+  font-weight: bold;
+  color: rgb(206, 76, 76);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 540px) {
+  article {
+    width: calc((100% - 40px) / 1);
+  }
+
+  .navFont {
+    font-size: 0.9rem;
+  }
+
+  .headerTitle {
+    font-size: 1.3rem;
+  }
+
+  .title {
+    font-size: 0.9rem;
+  }
+
+  .text {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1030px) {
+  article {
+    width: calc((100% - 60px) / 2);
+  }
+
+  .navFont {
+    font-size: 1.1rem;
+  }
+
+  .headerTitle {
+    font-size: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .text {
+    font-size: 0.8rem;
+  }
+}
+
+
+@media only screen and (min-width: 1031px) and (max-width: 1440px) {
+  article {
+    width: calc((100% - 80px) / 3);
+  }
+
+  .navFont {
+    font-size: 1.2rem;
+  }
+
+  .headerTitle {
+    font-size: 1.6rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .text {
+    font-size: 0.9rem;
+  }
+}
