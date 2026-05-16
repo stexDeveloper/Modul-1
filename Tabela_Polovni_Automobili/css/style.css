@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "sans-serif";
+}
+
+.carsInfoTable {
+  width: 100%;
+  text-align: left;
+  border-spacing: 0px;
+  text-align: center;
+}
+
+.thCars {
+  background-color: black;
+  color: white;
+}
+
+.markaModelAuta[colspan="2"] {
+  text-align: center;
+}
+
+.backgroundColorTr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.icons {
+  margin-right: 5px;
+}
+
+.backgroundColorTr:nth-child(odd) {
+  transform: scale(1);
+  transition: transform 1s ease-in-out;
+}
+
+.backgroundColorTr:nth-child(odd):hover {
+  transform: scale(1.1);
+  color: lightseagreen;
+}
+
+.backgroundColorTr:nth-child(even) {
+  transform: scale(1);
+  transition: transform 1s ease-in-out;
+}
+
+.backgroundColorTr:nth-child(even):hover {
+  transform: scale(1.1);
+  color: red;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+th {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+td {
+  font-size: 1.1rem;
+}
+
+/* telefoni */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .icons,
+  th {
+    font-size: 0.9rem;
+  }
+
+  td {
+    font-size: 0.8rem;
+  }
+}
