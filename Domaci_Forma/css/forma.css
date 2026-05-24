@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.font-family {
+  font-family: "Montseratt";
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+}
+
+.flex-centar {
+  justify-content: center;
+  align-items: center;
+}
+
+.font-size {
+  font-size: 1.3rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+input,
+textarea,
+button,
+select,
+label,
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.orderForm {
+  height: 60vh;
+}
+
+.orderForm div {
+  width: 400px;
+  margin-top: 25px;
+}
+
+.orderForm input {
+  width: 100%;
+  padding: 10px;
+}
+
+.orderForm option,
+.orderForm select {
+  width: 100%;
+  padding: 5px;
+}
+
+.orderForm .odabirGrada {
+  margin-left: 20px;
+}
+
+.orderForm .nacinPlacanja {
+  gap: 10px;
+  margin-left: 250px;
+}
+
+.nacinPlacanja input {
+  width: 15px;
+  border-radius: 50%;
+}
+
+.orderForm .checkbox {
+  gap: 20px;
+}
+
+.checkbox input {
+  width: 20px;
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1023px) {
+  .orderForm {
+    height: 70vh;
+  }
+
+  .orderForm div {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 1.1rem;
+  }
+
+  .orderForm .checkbox {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .orderForm {
+    height: 90vh;
+  }
+
+  .orderForm div {
+    width: 200px;
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+
+  .orderForm input {
+    padding: 5px;
+  }
+
+  .orderForm .container {
+    align-items: flex-start;
+  }
+
+  .orderForm .nacinPlacanja {
+    margin-left: 0;
+  }
+
+  .orderForm .checkbox {
+    margin-top: 40px;
+  }
+}

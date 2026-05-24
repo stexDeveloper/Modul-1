@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="css/forma.css" />
+  </head>
+
+  <body>
+    <form
+      class="orderForm flex flex-direction-column flex-centar font-family"
+      action=""
+    >
+      <div class="font-size">
+        <label for="ime">Ime:</label>
+        <input id="ime" type="text" placeholder="Unesite vase ime" required />
+      </div>
+
+      <div class="font-size">
+        <label for="adresa">Adresa:</label>
+        <input
+          id="adresa"
+          type="text"
+          placeholder="Unesite vasu adresu"
+          required
+        />
+      </div>
+
+      <div class="font-size">
+        <label for="email">Email:</label>
+        <input
+          id="email"
+          type="email"
+          placeholder="Unesite vas email"
+          required
+        />
+      </div>
+
+      <div class="odabirGrada font-size">
+        <label for="">Odaberite grad:</label>
+        <select class="cursor-pointer" name="" id="">
+          <option disabled selected value="">Izaberite grad</option>
+          <option value="">Beograd</option>
+          <option value="">Novi Sad</option>
+          <option value="">Subotica</option>
+        </select>
+      </div>
+
+      <div class="container flex flex-direction-column flex-centar font-size">
+        <p>Odaberite nacin placanja</p>
+        <div class="nacinPlacanja flex flex-direction-row">
+          <input class="cursor-pointer" id="kreditnaKartica" type="checkbox" />
+          <label for="pouzece">Kreditna kartica</label>
+        </div>
+
+        <div class="nacinPlacanja">
+          <input class="cursor-pointer" id="pouzece" type="checkbox" />
+          <label for="pouzece">Pouzecem</label>
+        </div>
+      </div>
+
+      <div class="checkbox flex flex-direction-row font-size">
+        <input class="cursor-pointer" id="mejlSubcription" type="checkbox" />
+        <label for="mejlSubcription">Zelim da primam mejlove sa ponudama</label>
+      </div>
+
+      <div>
+        <input class="btn font-size" type="submit" value="Posalji email" />
+      </div>
+    </form>
+  </body>
+</html>
