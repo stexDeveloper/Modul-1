@@ -1,0 +1,42 @@
+#main{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    position: relative;
+}
+
+.productParagraph{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.latestYear{
+    width: 80px;
+    height: 30px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
