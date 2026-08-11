@@ -1,0 +1,20 @@
+div {
+  display: flex;
+  flex-direction: column;
+  width: 1500px;
+}
+
+/* canvas {
+  width: 1600px;
+  height: 1000px;
+  border: 1px solid black;
+} */
+
+.btnDiv {
+  width: 10%;
+  padding: 10px;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
